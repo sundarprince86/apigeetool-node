@@ -5,7 +5,7 @@
   "main": "server.js",
   "private": true,
   "dependencies":  {
-    "express": "3.x.x",
+    "express": "4.0.0",
     "usergrid": "0.10.x",
     "volos-oauth-apigee": "0.9.x"
   }
