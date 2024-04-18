@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - usergrid > request > mime:
+        patched: '2024-04-18T04:09:36.816Z'
+        id: 'npm:mime:20170907'
+        path: usergrid > request > mime
+    - usergrid > request > form-data > mime:
+        patched: '2024-04-18T04:09:36.816Z'
+        id: 'npm:mime:20170907'
+        path: usergrid > request > form-data > mime
+  'npm:request:20160119':
+    - usergrid > request:
+        patched: '2024-04-18T04:09:36.816Z'
+        id: 'npm:request:20160119'
+        path: usergrid > request
